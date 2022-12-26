@@ -22,7 +22,7 @@ async def black_tea_command(message: types.Message):
 
 
 @dp.message_handler(text=['Зеленый чай'])
-async def black_tea_command(message: types.Message):
+async def green_tea_command(message: types.Message):
     await message.reply('Выберите производителя который вы любите', reply_markup=green_tea_menu)
 
 
