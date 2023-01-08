@@ -12,7 +12,7 @@ start_up_menu.add(black_tea_button, green_tea_button, news_button, basket_button
 
 black_tea_menu = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
 bbrand_1_button = KeyboardButton(text='Richard Black')
-bbrand_2_button = KeyboardButton(text='Greendfield Black')
+bbrand_2_button = KeyboardButton(text='Greenfield Black')
 bbrand_3_button = KeyboardButton(text='Lipton Black')
 bbrand_4_button = KeyboardButton(text='Назад')
 
@@ -20,7 +20,7 @@ black_tea_menu.add(bbrand_1_button, bbrand_2_button, bbrand_3_button, bbrand_4_b
 
 green_tea_menu = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
 gbrand_1_button = KeyboardButton(text='Richard Green')
-gbrand_2_button = KeyboardButton(text='Greendfield Green')
+gbrand_2_button = KeyboardButton(text='Greenfield Green')
 gbrand_3_button = KeyboardButton(text='Lipton Green')
 gbrand_4_button = KeyboardButton(text='Назад')
 

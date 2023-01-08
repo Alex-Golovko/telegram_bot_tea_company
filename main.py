@@ -66,6 +66,45 @@ async def richard_black(message: types.Message):
                          'по 100 пакетиков (400 рублей)')
     await message.answer('Выбери из списка') #, reply_markup = item_markup(table='autocarp', admin_ind=0)
 
+@dp.message_handler(text=['Richard Green'], state='*')
+async def richard_black(message: types.Message):
+    photo = types.InputFile('photo/Richard_green.jpg')
+    await message.answer_photo(photo=photo)
+    await message.answer('Доступны упаковки по 25 пакетиков (100 рублей), \n'
+                         'по 100 пакетиков (400 рублей)')
+    await message.answer('Выбери из списка') #, reply_markup = item_markup(table='autocarp', admin_ind=0)
+
+@dp.message_handler(text=['Greenfield Black'], state='*')
+async def richard_black(message: types.Message):
+    photo = types.InputFile('photo/Greenfield_black.jpg')
+    await message.answer_photo(photo=photo)
+    await message.answer('Доступны упаковки по 25 пакетиков (100 рублей), \n'
+                         'по 100 пакетиков (400 рублей)')
+    await message.answer('Выбери из списка') #, reply_markup = item_markup(table='autocarp', admin_ind=0)
+
+@dp.message_handler(text=['Greenfield Green'], state='*')
+async def richard_black(message: types.Message):
+    photo = types.InputFile('photo/Greenfield_green.jpg')
+    await message.answer_photo(photo=photo)
+    await message.answer('Доступны упаковки по 25 пакетиков (100 рублей), \n'
+                         'по 100 пакетиков (400 рублей)')
+    await message.answer('Выбери из списка') #, reply_markup = item_markup(table='autocarp', admin_ind=0)
+
+@dp.message_handler(text=['Lipton Black'], state='*')
+async def richard_black(message: types.Message):
+    photo = types.InputFile('photo/Lipton_black.jpg')
+    await message.answer_photo(photo=photo)
+    await message.answer('Доступны упаковки по 25 пакетиков (100 рублей), \n'
+                         'по 100 пакетиков (400 рублей)')
+    await message.answer('Выбери из списка') #, reply_markup = item_markup(table='autocarp', admin_ind=0)
+
+@dp.message_handler(text=['Lipton Green'], state='*')
+async def richard_black(message: types.Message):
+    photo = types.InputFile('photo/Lipton_green.jpg')
+    await message.answer_photo(photo=photo)
+    await message.answer('Доступны упаковки по 25 пакетиков (100 рублей), \n'
+                         'по 100 пакетиков (400 рублей)')
+    await message.answer('Выбери из списка') #, reply_markup = item_markup(table='autocarp', admin_ind=0)
 
 @dp.message_handler(text=['Зеленый чай'], state='*')
 async def green_tea_command(message: types.Message):
