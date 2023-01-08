@@ -1,0 +1,205 @@
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at /home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'")>
+Traceback (most recent call last):
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/PycharmProjects/telegram_bot_tea_company/main.py", line 63, in richard_back
+    photo = types.InputFile(filename='photo/Richard_blac.jpg')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at /home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'")>
+Traceback (most recent call last):
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/PycharmProjects/telegram_bot_tea_company/main.py", line 63, in richard_back
+    photo = types.InputFile(filename='photo/Richard_blac.jpg')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at /home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'")>
+Traceback (most recent call last):
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/PycharmProjects/telegram_bot_tea_company/main.py", line 63, in richard_back
+    photo = types.InputFile(filename='photo/Richard_blac.jpg')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at /home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'")>
+Traceback (most recent call last):
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/PycharmProjects/telegram_bot_tea_company/main.py", line 63, in richard_back
+    photo = types.InputFile(filename='photo/Richard_blac.jpg')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at /home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'")>
+Traceback (most recent call last):
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/PycharmProjects/telegram_bot_tea_company/main.py", line 65, in richard_back
+    photo = types.InputFile(filename='photo/Richard_blac.jpg')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at /home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'")>
+Traceback (most recent call last):
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/venv/lib/python3.11/site-packages/aiogram-2.22.2-py3.11.egg/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/Alex/PycharmProjects/telegram_bot_tea_company/main.py", line 65, in richard_back
+    photo = types.InputFile(filename='photo/Richard_blac.jpg')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InputFile.__init__() missing 1 required positional argument: 'path_or_bytesio'
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: Teacompanybot [@TeaCompanyBot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
